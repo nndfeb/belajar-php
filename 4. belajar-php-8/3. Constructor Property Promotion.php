@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Kdang kita sering memuat property sekaligus mengisi property tersebut menggunakan constructor
+ * https://wiki.php.net/rfc/constructor_promotion
+ */
 class Product
 {
     function __construct(

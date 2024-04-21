@@ -1,5 +1,12 @@
 <?php
 
+/**
+ ** Attributes 
+ * https://wiki.php.net/rfc/attributes_v2
+ * https://www.php.net/manual/en/language.attributes.php
+ */
+
+
 #[Attribute(Attribute::TARGET_CLASS | Attribute::TARGET_PROPERTY)]
 class NotBlank
 {

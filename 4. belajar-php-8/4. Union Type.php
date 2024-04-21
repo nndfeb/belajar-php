@@ -1,5 +1,10 @@
 <?php
 
+/**
+ ** Union Types
+ * 
+ * https://wiki.php.net/rfc/union_types_v2
+ */
 class Example
 {
     public string|int|bool|array $data;
@@ -25,4 +30,3 @@ function sampleFunction(string|array $data): string|array
 
 var_dump(sampleFunction("Eko"));
 var_dump(sampleFunction(["Test"]));
- 
